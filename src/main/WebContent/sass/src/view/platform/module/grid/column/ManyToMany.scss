@@ -1,0 +1,33 @@
+
+.manyToManyTD {
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+
+.manyToManyEdit {
+	cursor: pointer;
+	font-size: 12px;
+}
+
+
+
+.manyToManyContext {
+	margin-left : 3px;
+	cursor: pointer;
+	color : #11264f;
+	white-space:nowrap;
+	display: inline-block;
+/**	  border-style: solid;
+    border-width: 1px;					*/
+    border-radius: 2px;
+    background-color: beige;
+    padding: 0px 2px;
+    border-color: #557dbb;
+}
+
+.manyToManyContextClose {
+	cursor: pointer;
+	font-size: 9px;
+	vertical-align: super;
+}
