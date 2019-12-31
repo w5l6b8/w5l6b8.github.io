@@ -1,2 +1,0 @@
-# triton-small - Read Me
-
