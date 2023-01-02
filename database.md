@@ -136,11 +136,22 @@ mysql> use eduyun_2015_sp1;
 
 5、然后用repair table newabout
 
- 
-
 6、再用check table newabout 检查一下就ok了
-
  
-
 7、ok 搞定
+
+### mysql 查询表字段信息（字段名、描述、类型、长度）
+
+SELECT 
+  COLUMN_NAME 列名, 
+  COLUMN_TYPE 数据类型, 
+    if(IS_NULLABLE='YES','是','否') 是否为空,
+  COLUMN_DEFAULT 默认值,
+  COLUMN_COMMENT 备注
+FROM 
+ INFORMATION_SCHEMA.COLUMNS 
+where 
+table_schema ='guns'    -- 数据库名称 
+AND 
+table_name  = 'sys_user'    -- 表名
 
