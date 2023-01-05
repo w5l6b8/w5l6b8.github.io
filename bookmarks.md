@@ -226,6 +226,10 @@ https://www.zhihu.com/people/juemuren4449/posts?page=3
 
 ### 图床网站
 
-https://postimages.org/
+聚合图床
+https://www.superbed.cn
+
+Postimages
+https://postimages.org
 
 
