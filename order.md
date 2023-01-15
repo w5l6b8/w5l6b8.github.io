@@ -829,6 +829,9 @@ source ~/.bash_profile
 mvn -v
 出现Maven版本、Maven home等信息，说明配置成功。
 
+### mac与iphone信息不同步的问题
+打开信息->偏好设置->注销后重新登陆
+
 
 
 >## Git
