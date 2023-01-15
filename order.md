@@ -703,45 +703,45 @@ cat -n test.log |grep "地形"  >xxx.tx
 ### mac版IDEA常用快捷键
 	
 
-1. command+N
+    1. command+N
 
     1）光标在代码编辑界面时,生成setter getter等方法
 
 	2）光标在左侧工程结构时,创建新类/包等
 
-2. command+delete 删除当前行
+    2. command+delete 删除当前行
 
-3. command+D 复制当前行
+    3. command+D 复制当前行
 
-4. command+alt+M 将当前选中到代码块抽取为方法
+    4. command+alt+M 将当前选中到代码块抽取为方法
 
-5. command+E 最近浏览的文体
+    5. command+E 最近浏览的文体
 
-6. alt+command+L 格式化代码
+    6. alt+command+L 格式化代码
 
-7. alt+enter 生成局部变量（introduce local variable）
+    7. alt+enter 生成局部变量（introduce local variable）
 
-8. double shift （快速按两次shift键）快速查找
+    8. double shift （快速按两次shift键）快速查找
 
-9. shift+alt+⬇️ 将当前代码整体下移一行（上移同理）
+    9. shift+alt+⬇️ 将当前代码整体下移一行（上移同理）
 
-10. shift+ctrl+R 编译并执行
+    10. shift+ctrl+R 编译并执行
 
-11. fn+左键 将光标定位到当前代码行最左侧(最右侧同理 )
+    11. fn+左键 将光标定位到当前代码行最左侧(最右侧同理 )
 
-12. command+R 查找和替换
+    12. command+R 查找和替换
 
-13. command+alt+U 在当前类中，查看继承关系视图
+    13. command+alt+U 在当前类中，查看继承关系视图
 
-14. command+alt+左键/右键 将光标返回到上次查看代码的地方
+    14. command+alt+左键/右键 将光标返回到上次查看代码的地方
 
-15. command+F12 查找当前类的方法
+    15. command+F12 查找当前类的方法
 
-16. shift*2 快速查找
+    16. shift*2 快速查找
 
-17. shift+F6 选中当前对象，重命名
+    17. shift+F6 选中当前对象，重命名
 
-18. shift+alt+⬇️ 将当前代码整体下移一行
+    18. shift+alt+⬇️ 将当前代码整体下移一行
 
 
 ### Mac OS下使用rz和sz
@@ -761,21 +761,21 @@ iTerm是一个Mac下的终端工具，非常好用的命令行工具。Mac自带
 3. 安装lrzsz
 lrzsz是一款在linux里可代替ftp上传和下载的程序。通过下载它来使用rz，sz。
 
-brew install lrzsz
+    brew install lrzsz
 4.安装wget
 Mac默认不安装wget，可以通过brew安装。
 
-brew install wget
+    brew install wget
 5.下载iterm2-zmodem
 在iTerm2中使用Zmodem传输文件, 我们使用wget下载iterm2-zmodem。
 
-cd /usr/local/bin
+    cd /usr/local/bin
 
 wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-send-zmodem.sh
 
 wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-recv-zmodem.sh
 
-chmod 777 /usr/local/bin/iterm2-*
+    chmod 777 /usr/local/bin/iterm2-*
 
 如果命令需要权限，尝试在命令前面加上sudo。
 
@@ -813,17 +813,17 @@ Regular expression	Action	Action
 2 配置Maven环境变量
 iTerm终端打开下面配置文件：
 
-vi ~/.bash_profile 
+    vi ~/.bash_profile 
 按 i 键进入编辑模式，输入如下内容：
 
-export M2_HOME=/usr/local/maven/apache-maven-3.3.3
+    export M2_HOME=/usr/local/maven/apache-maven-3.3.3
 
-export PATH=$PATH:$M2_HOME/bin
+    export PATH=$PATH:$M2_HOME/bin
 点击 esc 按钮退出编辑模式，输入 :wq 保存退出。
 
 输入如下命令使配置生效：
 
-source ~/.bash_profile 
+    source ~/.bash_profile 
 重新打开一个终端，输入：
 
 mvn -v
@@ -851,24 +851,27 @@ mvn -v
 
 提交时加上参数：-a ，表示新增
 
-git commit -am "提交说明"
+    git commit -am "提交说明"
 
 ### mac上配置多git源
 
 公司搭建私有git服务，平常开发都上传代码在上面。这个时候如果想用gitlab托管，就要进行一些配置（假设公司的git服务已经配置好）：
 
 生成gitlab的sshkey
-	ssh-keygen -t rsa -C "mr_ktl@163.com"
+	
+    ssh-keygen -t rsa -C "mr_ktl@163.com"
 	
 这个时候就会提示生成公钥、私钥路径：
 	Enter file in which to save the key (/Users/ketl/.ssh/id_rsa): /Users/ketl/.ssh/id_rsa_gitlab
 
 默认路径是~/.ssh/id_rsa,id_rsa存放的是公司私有git私钥，不能覆盖。重命名比如：id_rsa_github中。
 添加私钥
-    	ssh-add ~/.ssh/id_rsa_github
+
+    ssh-add ~/.ssh/id_rsa_github
     
 修改config
-        vi ~/.ssh/config
+        
+    vi ~/.ssh/config
 
 添加如下：
         # github
@@ -878,14 +881,7 @@ git commit -am "提交说明"
         IdentityFile ~/.ssh/id_rsa_github
 
 现在可以通过ssh -T git@github.com命令查看是否设置成功！！！
-    
 
-
-### Changes not staged for commit
-
-提交时加上参数：-a ，表示新增。
-
-git commit -a "提交说明"
 
 
 
