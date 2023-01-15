@@ -222,7 +222,7 @@ https://github.com/AobingJava/JavaFamily
 
 ### docsify 中文文档 
 
-https://www.wenjiangs.com/doc/docsifyjs-plugins
+https://docsify.js.org/?spm=a2c6h.12873639.article-detail.145.2d3a5258oWwsnx#/zh-cn/
 
 ### 免费图床网站
 
