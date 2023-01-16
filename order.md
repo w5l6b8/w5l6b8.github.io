@@ -637,23 +637,23 @@ Linux系统下设置redis的密码：
 
 ### linux日志查找命令
 
-1.cat -n test.log |grep "地形"  得到关键日志的行号
+    1.cat -n test.log |grep "地形"  得到关键日志的行号
 
 得到"地形"关键字所在的行号是102行. 此时如果我想查看这个关键字前10行和后10行的日志:
 
-cat -n test.log |tail -n +92|head -n 20
+    cat -n test.log |tail -n +92|head -n 20
 
-tail -n +92表示查询92行之后的日志
+    tail -n +92表示查询92行之后的日志
 
-head -n 20 则表示在前面的查询结果里再查前20条记录
+    head -n 20 则表示在前面的查询结果里再查前20条记录
 
 2
 
-sed -n '/2014-12-17 16:17:20/,/2014-12-17 16:17:36/p'  test.log
+    sed -n '/2014-12-17 16:17:20/,/2014-12-17 16:17:36/p'  test.log
 
 特别说明:上面的两个日期必须是日志中打印出来的日志,否则无效.
 
-grep '2014-12-17 16:17:20' test.log 来确定日志中是否有该时间点,以确保第4步可以拿到日志
+    grep '2014-12-17 16:17:20' test.log 来确定日志中是否有该时间点,以确保第4步可以拿到日志
 
 这个根据时间段查询日志是非常有用的命令.
 
@@ -665,7 +665,65 @@ grep '2014-12-17 16:17:20' test.log 来确定日志中是否有该时间点,以�
 
 (2)使用 >xxx.txt 将其保存到文件中,到时可以拉下这个文件分析.如:
 
-cat -n test.log |grep "地形"  >xxx.tx
+    cat -n test.log |grep "地形"  >xxx.tx
+
+
+### cat查找文件中的指定内容，并复制到新文件中进行查看
+
+    cat error.log | grep 'adam' > ./test.log
+以上命令为查询error.log文件中, 出现'adam'的日志行。并将查询到的日志复制并新建到当前目录下的test.log文件
+
+### grep -c查找文件中的指定内容的出现次数
+    grep -c 'adam' test.log
+以上命令为查询test.log出现'adam'的次数
+
+### tail方式显示 error.log 文件的最后 10 行
+    tail error.log         # 默认显示最后 10 行
+
+### 要跟踪名为 error.log 的文件的增长情况
+    tail -f error.log
+此命令显示 error.log 文件的最后 10 行。当将某些行添加至 error.log 文件时，tail 命令会继续显示这些行。 显示一直继续，直到您按下（Ctrl-C）组合键停止显示。
+
+
+
+### 显示文件 error.log 的内容，从第38行至文件末尾
+    tail -n +38 error.log
+
+### tail方式显示 error.log 文件的最后 10 个字符
+    tail -c 10 error.log
+
+### tail方式查看 error.log 文件的最后300行, 适合快速查看大文件内容
+    tail -n300 error.log
+
+### less方式从 error.log 文件的110行开始查看
+不显示行号
+    
+    less +110 error.log
+
+显示行号
+
+    less +110 -N error.log
+
+### sed方式显示 error.log 文件的指定行数/指定范围
+
+显示 error.log 文件的321536行
+
+    sed -n '321536'p error.log
+
+显示 error.log 文件的321536行至321580行
+    
+    sed -n '321536,321580'p error.log
+
+显示 error.log 文件的321536行至最后
+
+    sed -n '320123,$'p error.log
+
+
+
+
+
+
+
 
 
 
