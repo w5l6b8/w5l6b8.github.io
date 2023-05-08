@@ -236,4 +236,9 @@ https://postimages.org
 
 https://www.bilibili.com/video/av29784743/?spm_id_from=333.788.b_636f6d6d656e74.20
 
+### 语音转文字
+https://console.cloud.tencent.com/asr/demonstrate
+
+### 电视直播源
+http://www.kodiplayer.cn/movie/2898.html
 
