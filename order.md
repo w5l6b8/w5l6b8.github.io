@@ -720,6 +720,35 @@ Linux系统下设置redis的密码：
 
 
 
+### 更换SSH 公钥
+
+打开终端 输入
+
+    cd ~/.ssh
+
+输入你的邮箱
+
+    ssh-keygen -t rsa -C 'your@qq.com'
+
+看到这句后 就说明你操作的没错
+
+    Generating public/private rsa key pair.
+
+输入用户名密码阶段 可以直接 enter 跳过
+
+接着输入
+
+     cat ~/.ssh/id_rsa.pub
+
+将内容复制到gitlab上设置 ssh密钥的地方
+
+
+
+
+
+
+
+
 
 
 
