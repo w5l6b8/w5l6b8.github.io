@@ -1008,7 +1008,17 @@ ServerInfoTimeOut 0x0 (REG_DWORD)这三个DWORD。
 2. 选中Enable LMHOSTS lookup前面的checkbox，然后点击import LMHOSTS, 选择%WINDOWS%\system32\drivers\etc\lmhosts.sam（hosts）文件，就可以了。
 
 
+### 使用diskpart对硬盘进行分区分卷
 
+1. cmd 打开命令提示符 
+
+2. 输入命令diskpart
+
+3. 输入list volume看到所有当前磁盘的卷标
+
+4. select volume 6表示选择了卷标6
+
+5. 输入assignleterr=z 表示将volume 6挂载为z盘
 
 
 
