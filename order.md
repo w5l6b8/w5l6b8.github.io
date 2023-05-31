@@ -746,7 +746,27 @@ Linux系统下设置redis的密码：
 
 
 
+### Linux连接数据库命令
 
+一、MySQL数据库的连接
+
+1.首先，你要安装Mysql服务器和客户端，在安装完毕后，你可以打开终端输入以下的代码登录MySQL，（假设服务器IP为localhost）：
+
+    mysql -h localhost -u root -p
+
+2.输入上述代码让系统输出 press y to continue ，然后按照提示输入用户口令，即可进入数据库操作界面，数据库操作界面显示“mysql>”，表明你已经成功连接MySQL数据库。
+
+二、Oracle数据库的连接
+
+1.安装Oracle服务器和客户端，安装完毕后，你可以打开终端输入及以下代码登录Oracle，（假设服务器IP为localhost）：
+
+    sqlplus /nolog
+
+2.输入上述代码让系统输出： SQL> ，接着我们在SQL>输入下面的代码即可登录:
+
+    connect username/password@localhost
+
+3.输入上述代码后，系统将输出Connected to Oracle Database后，你就可以进入数据库操作界面进行CRUD，数据库操作界面显示“SQL>”，表明你已经成功连接Oracle数据库
 
 
 
