@@ -155,3 +155,19 @@ table_schema ='guns'    -- 数据库名称
 AND 
 table_name  = 'sys_user'    -- 表名
 
+### 创建触发器
+
+-- 创建触发器
+DELIMITER //
+CREATE TRIGGER update_value_trigger
+BEFORE UPDATE ON my_table
+-- 如果不加EACH ROW相当于对整张表进行操作
+FOR EACH ROW
+BEGIN
+-- 设置新的值为旧值加1
+SET NEW.value = OLD.value + 1;
+-- 更新更新时间为当前时间
+SET NEW.updated_at = NOW();
+END;
+//
+DELIMITER ;
