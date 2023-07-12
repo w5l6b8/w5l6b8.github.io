@@ -162,7 +162,7 @@ mysql> use eduyun_2015_sp1;
      CREATE TRIGGER update_value_trigger
      BEFORE UPDATE ON my_table
     -- 如果不加EACH ROW相当于对整张表进行操作
-     FOR EACH ROW
+     FOR EACH ROW 
      BEGIN
      -- 设置新的值为旧值加1
      SET NEW.value = OLD.value + 1;
