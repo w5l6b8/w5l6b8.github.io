@@ -247,3 +247,6 @@ https://www.toyaml.com/index.html
 
 ### 在线加解密网站
 http://www.158566.com/
+
+### hexo用量统计
+https://console.leancloud.cn/apps/bmcjnJxeaCUG71wNibmV8ZyV-gzGzoHsz/storage/stats?metric=qps

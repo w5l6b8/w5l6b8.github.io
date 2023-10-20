@@ -17,3 +17,7 @@
 ### 程序打成jar包时，如何获取到jar目录所在的根路径
 
     String rootPath = System.getProperty("user.dir");
+
+### List 转数组
+    
+    String[] stringArray = myList.stream().toArray(String[]::new);
