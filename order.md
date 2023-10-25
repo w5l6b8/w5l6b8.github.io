@@ -990,9 +990,13 @@ mvn -v
 现在可以通过ssh -T git@github.com命令查看是否设置成功！！！
 
 
+### 切换成ssh方式提交代码
+
+    git remote set-url origin <SSH_URL>
+    
+    git push origin 分支名
 
 
-	
 >## Windows 
 
 ### windows下修改host不生效的解决方法
