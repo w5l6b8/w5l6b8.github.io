@@ -771,6 +771,13 @@ Linux系统下设置redis的密码：
 
 
 
+### sftp登陆不了账号不可用
+
+在用su命令切换用户的时候，报错This account is currently not available。这是因为用户的shell禁止登陆了。执行以下命令即可解决。
+
+
+    usermod -s /bin/bash 用户名
+
 
 
 
