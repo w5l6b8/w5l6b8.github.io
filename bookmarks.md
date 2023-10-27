@@ -250,3 +250,18 @@ http://www.158566.com/
 
 ### hexo用量统计
 https://console.leancloud.cn/apps/bmcjnJxeaCUG71wNibmV8ZyV-gzGzoHsz/storage/stats?metric=qps
+
+### 掘墓人的wiki
+https://wiki.juemuren4449.com/
+
+### 微信公众平台
+https://mp.weixin.qq.com/
+
+### 京北方
+https://edm.northking.net/#/403
+
+### 阿里云文档
+https://help.aliyun.com/?spm=a2c4g.11186623.0.0.39f54252hYx2hb
+
+### 反向代理,内网穿透工具ngrok
+https://dashboard.ngrok.com/get-started/setup
