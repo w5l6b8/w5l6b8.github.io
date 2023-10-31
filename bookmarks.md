@@ -265,3 +265,9 @@ https://help.aliyun.com/?spm=a2c4g.11186623.0.0.39f54252hYx2hb
 
 ### 反向代理,内网穿透工具ngrok
 https://dashboard.ngrok.com/get-started/setup
+
+### 订阅地址转换
+https://sub.789.st/
+
+### 语音翻译
+https://www.heygen.com/
