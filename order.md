@@ -771,7 +771,7 @@ Linux系统下设置redis的密码：
 
 
 
-### sftp登陆不了账号不可用
+### sftp协议登陆不了，显示账号不可用
 
 在用su命令切换用户的时候，报错This account is currently not available。这是因为用户的shell禁止登陆了。执行以下命令即可解决。
 
@@ -779,7 +779,26 @@ Linux系统下设置redis的密码：
     usermod -s /bin/bash 用户名
 
 
+### chatGPT 调用示例
 
+GPT3
+
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{
+    "model": "code-davinci-002",
+    "prompt": "Translate the following English text to French: Hello, how are you?",
+    }' https://api.openai.com/v1/completions
+
+
+GPT3.5
+    
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{
+    "model": "gpt-3.5-turbo",
+    "messages": [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Hello, can you tell me about programming?"},
+    {"role": "assistant", "content": "Sure! Programming is the process of writing instructions for a computer to perform specific tasks. It involves using programming languages like Python, Java, and C++ to create software and applications."}
+    ]
+    }' https://api.openai.com/v1/completions
 
 
 

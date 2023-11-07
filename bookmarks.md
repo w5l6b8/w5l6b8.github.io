@@ -269,5 +269,7 @@ https://dashboard.ngrok.com/get-started/setup
 ### 订阅地址转换
 https://sub.789.st/
 
-### 语音翻译
+### 视频语音翻译
 https://www.heygen.com/
+
+https://labs.heygen.com/video-translate
