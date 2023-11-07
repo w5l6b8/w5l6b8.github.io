@@ -783,7 +783,7 @@ Linux系统下设置redis的密码：
 
 GPT3
 
-    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer " -d '{
     "model": "code-davinci-002",
     "prompt": "Translate the following English text to French: Hello, how are you?",
     }' https://api.openai.com/v1/completions
@@ -791,7 +791,7 @@ GPT3
 
 GPT3.5
     
-    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer " -d '{
     "model": "gpt-3.5-turbo",
     "messages": [
     {"role": "system", "content": "You are a helpful assistant."},
