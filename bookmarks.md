@@ -273,3 +273,12 @@ https://sub.789.st/
 https://www.heygen.com/
 
 https://labs.heygen.com/video-translate
+
+### 生成式图片AI midjourney
+https://www.midjourney.com/imagine
+
+### 美国身份生成器
+https://www.shenfendaquan.com/
+
+### 天翼云
+https://www.ctyun.cn/h5/auth/
