@@ -282,3 +282,6 @@ https://www.shenfendaquan.com/
 
 ### 天翼云
 https://www.ctyun.cn/h5/auth/
+
+### 千米开放平台
+http://open.qianmi.com/qmapi/apiList?gid=G1100174188&sysId=1
