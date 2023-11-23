@@ -285,3 +285,6 @@ https://www.ctyun.cn/h5/auth/
 
 ### 千米开放平台
 http://open.qianmi.com/qmapi/apiList?gid=G1100174188&sysId=1
+
+### 国外虚拟号码平台
+https://sms-activate.org/en/freePrice#activation
