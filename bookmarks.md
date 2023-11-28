@@ -288,3 +288,6 @@ http://open.qianmi.com/qmapi/apiList?gid=G1100174188&sysId=1
 
 ### 国外虚拟号码平台
 https://sms-activate.org/en/freePrice#activation
+
+### webSocket测试
+http://coolaf.com/tool/chattest
