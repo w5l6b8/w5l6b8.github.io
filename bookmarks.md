@@ -291,3 +291,6 @@ https://sms-activate.org/en/freePrice#activation
 
 ### webSocket测试
 http://coolaf.com/tool/chattest
+
+### 在线画图
+https://www.suxieban.com/index.html#
