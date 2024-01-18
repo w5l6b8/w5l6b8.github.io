@@ -1023,6 +1023,32 @@ mvn -v
     git push origin 分支名
 
 
+### github ssh的连接报错
+   
+    kex_exchange_identification: Connection closed by remote host
+    Connection closed by 127.0.0.1 port 7890
+    fatal: Could not read from remote repository.
+
+    Please make sure you have the correct access rights
+    and the repository exists.
+
+    or
+
+    ssh: connect to host github.com port 22: Connection refused
+    fatal: Could not read from remote repository.
+
+    Please make sure you have the correct access rights
+    and the repository exists.
+
+解决办法  
+
+    nano ~/.ssh/config
+
+添加
+
+    HostName ssh.github.com
+    Port 443
+
 >## Windows 
 
 ### windows下修改host不生效的解决方法
