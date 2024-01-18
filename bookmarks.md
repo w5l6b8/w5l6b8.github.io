@@ -294,3 +294,10 @@ http://coolaf.com/tool/chattest
 
 ### 在线画图
 https://www.suxieban.com/index.html#
+
+### AI模型文档地址
+https://help.aliyun.com/zh/dashscope/developer-reference/api-details?spm=a2c4g.11186623.0.0.27616ffduDCcks
+
+### 逆向工程学习
+    1.初级学习
+    1.1 https://cloud.tencent.com/developer/article/1162949
