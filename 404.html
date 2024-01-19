@@ -5,8 +5,11 @@
     <title>Redirecting to...</title>
     <script>
         (function() {
-            var path = location.pathname;
-            location.replace('/#' + path);
+            v     var path = location.pathname;
+            var hash = location.hash;
+            var search = location.search;
+            var fullPath = path + search + hash;
+            location.replace('/#' + fullPath);
         })();
     </script>
 </head>
