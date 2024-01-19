@@ -34,6 +34,12 @@
       routerMode: 'history',
       topMargin: 40,
 
+      //在页面刷新后重定向至当前页面
+      fallbackLink: function(path) {
+        if (path.indexOf('?p=/') === 0) {
+          return path.split('?p=/')[1];
+        }
+      },
       // 插件
       search: {
         maxAge: 86400000,// 过期时间，单位毫秒，默认一天
