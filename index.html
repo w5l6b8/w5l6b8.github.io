@@ -36,8 +36,10 @@
 
       // 在页面加载后执行的函数
       onReady: function() {
+        console.log('Docsify is ready!');
         var redirectPath = sessionStorage.getItem('redirectPath');
         if (redirectPath) {
+          console.log('Docsify is ready too!');
           // 这里可以添加滚动到之前位置的逻辑
           sessionStorage.removeItem('redirectPath');
         }
