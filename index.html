@@ -34,6 +34,15 @@
       routerMode: 'hash',
       topMargin: 40,
 
+      // 在页面加载后执行的函数
+      onReady: function() {
+        var redirectPath = sessionStorage.getItem('redirectPath');
+        if (redirectPath) {
+          // 这里可以添加滚动到之前位置的逻辑
+          sessionStorage.removeItem('redirectPath');
+        }
+      },
+
       //在页面刷新后重定向至当前页面
       // 插件
       search: {

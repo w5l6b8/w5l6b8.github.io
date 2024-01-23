@@ -5,10 +5,11 @@
     <title>Redirecting to...</title>
     <script>
         (function() {
-            v     var path = location.pathname;
+            var path = location.pathname;
             var hash = location.hash;
             var search = location.search;
             var fullPath = path + search + hash;
+            sessionStorage.setItem('redirectPath', fullPath);
             location.replace('/#' + fullPath);
         })();
     </script>
