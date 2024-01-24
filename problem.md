@@ -21,3 +21,13 @@
 ### List 转数组
     
     String[] stringArray = myList.stream().toArray(String[]::new);
+
+>## windows
+
+### CUDA 示例构建时错误 - Windows 10 和 Cuda 10.1 Toolikt
+
+    C:\Program Files\NVIDIA GPUComputing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions
+    复制 MSBuildExtensions 文件夹中的所有内容。
+
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\BuildCustomizations
+    将其粘贴到 BuildCustomizations 文件夹中
