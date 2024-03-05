@@ -171,3 +171,7 @@ mysql> use eduyun_2015_sp1;
      END;
      //
     DELIMITER ;
+
+### mysql修改密码
+
+    ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
