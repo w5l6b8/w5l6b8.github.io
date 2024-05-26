@@ -306,3 +306,7 @@ https://help.aliyun.com/zh/dashscope/developer-reference/api-details?spm=a2c4g.1
 
 ### spring工程创建
 https://start.spring.io/
+
+
+### biznet订阅地址
+https://s1.bnsubservdom.com/api/v1/client/subscribe?token=eee55c8ab48a366d8fde63a70b47fb67
