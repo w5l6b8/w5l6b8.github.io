@@ -310,3 +310,7 @@ https://start.spring.io/
 
 ### biznet订阅地址
 https://s1.bnsubservdom.com/api/v1/client/subscribe?token=eee55c8ab48a366d8fde63a70b47fb67
+
+
+### fastLink
+https://a04.flaff01.one/user##
