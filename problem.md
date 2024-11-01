@@ -24,7 +24,7 @@
 
 ### 解决idea编译时遇到write classing卡住
 
-在我编译项目时偶尔会遇到write classing卡住，百度上的清缓存重启也没有解决，最后找到我们项目组的后端大佬，一顿操作就解决了
+在我编译项目时偶尔会遇到write classing卡住，以下是解决方法
 idea->settings->build,execution,deployment->compiler
 把build process heap size 改大一点比如2048
 
