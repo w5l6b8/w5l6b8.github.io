@@ -318,3 +318,6 @@ https://a04.flaff01.one/user##
 
 ### 人人都是产品经理
 https://wen.woshipm.com/
+
+### 视频解析下载网站
+https://www.ittansuo.com/
