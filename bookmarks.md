@@ -327,3 +327,6 @@ https://fliphtml5.com/zmcnc/aqtc/basic
 
 ### 创业案例
 https://www.yuque.com/laowang-xfxos/wqutao/zght3w
+
+### 管伊佳
+http://121.4.81.114:3000/dashboard/analysis
