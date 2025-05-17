@@ -801,7 +801,20 @@ GPT3.5
     }' https://api.openai.com/v1/completions
 
 
+### 宝塔404链接问题解决
 
+https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=111991&highlight=404
+您好，404状态码代表您访问的页面不存在，您可到服务器终端执行
+bt 16 #修复面板
+bt 14 #查看面板登录信息
+复制代码
+
+然后再方面面板看是否正常，若还是不行则再去服务器终端执行
+bt 22
+复制代码
+
+截图看一下面板的错误日志
+举报
 
 
 
